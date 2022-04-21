@@ -1,0 +1,108 @@
+body{
+    font-family: 'Raleway';
+    padding: 0;
+    padding-bottom: 50px;
+    margin: 0;
+    background-color: #E8DAB2;
+}
+
+    body header{
+        width: 100%;
+        height: 100vh;
+        background-color: #E8DAB2;
+        margin: 0;
+        padding: 0;
+    }
+
+        body header div p{
+            font-family: 'Raleway';
+            font-style: italic;
+            font-size: 26px;
+            margin-left: 10px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-150%);
+            left: 0;
+        }
+
+        body header div h1{
+            font-family: 'Raleway';
+            font-weight: bold;
+            font-size: 52px;
+            margin-left: 10px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+        }
+
+        body header img{
+            margin-right: 0;
+            height: 192px;
+            width: 370px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+        }
+
+#main{
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 14px 24px 24px 24px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px -5px #000000;
+}
+
+    section h2{
+        font-size: 30px;
+    }
+
+    section img{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 0px 13px -5px #000000;
+    }
+
+    section ul{
+        font-size: 24px;
+        font-family: 'Raleway';
+    }
+
+    section p{
+        font-size: 24px;
+        font-family: 'Raleway';
+        text-align: justify;
+    }
+    
+    .youtube-player{
+        margin-top: 25px;
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        height: 400px;
+        border: none;
+        box-shadow: 0px 0px 13px -5px #000000;
+    }
+
+footer div{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+    footer div h2{
+        float: right;
+        padding-right: 5px;
+        margin-top: 10px;
+    }
+
+    footer a{
+        color: #E8DAB2;
+    }
